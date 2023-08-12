@@ -51,7 +51,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 */
 // $route[''] = 'auth';
 // $this->set_directory( "admin" );
-$route['default_controller'] = 'auth';
+$route['default_controller'] = 'admin/auth';
 $route['404_override'] = 'auth';
-$route['admin'] = 'auth';
+// $route['admin'] = 'auth';
 $route['translate_uri_dashes'] = FALSE;
