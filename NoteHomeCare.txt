@@ -1,0 +1,19 @@
+Color Pallete : 
+Main Color : 
+Magenta : #521746 !important
+Abu keputihan : #c8c9ca !important
+
+Carousel : 
+-https://source.unsplash.com/076XLvcgeDk/1920x1080
+-https://source.unsplash.com/GpVak9-cL6E/1920x1080
+
+Urutan Viw admin
+header
+sidebar
+topbar
+content
+footer
+
+
+SVG Image
+https://undraw.co/illustrations

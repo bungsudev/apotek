@@ -1,0 +1,26 @@
+1.form penjualan landscape
+2.edit penjualan Qty dikurangkan
+3.Total pembelian belum sesuai
+4.dipembelian obat oleh supplier dibuat tanggal edd,nomor beds diobat
+5.di penjualan dibuat kan penjualan pertablet dan perpapan di kartu stock dia pertablet
+6.buat Re iventory:
+	min & max stock 
+7.sisa persedian obat
+8.penjualan pembelian keuntungan bisa terlihat dari diinput
+9. untuk obat rusak & return
+* ED
+Rusak -> ed -> supplier
+ 	-> Rusak
+
+print hanya :
+*Nama obat
+*Qty
+* Diskon
+*Satuan Harga
+* Total Harga
+
+Note: Tidak ada
+
+Penjualan obat : User yang jual harus dimunculkan, Nama pembeli diganti User input Dan jam penginputan
+
+Asisten : penjualan obat & laporan kartu stock

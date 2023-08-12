@@ -1,0 +1,409 @@
+.card {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.titleText {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 25px 0 50px;
+}
+
+.titleText::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #901d78;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.pb-mobile {
+	padding-bottom: 250px !important;
+}
+
+/* ButtonSection */
+.btnStella1 {
+	background: #521746 !important ;
+	color: #fff !important;
+}
+.btnStella1:hover {
+	color: #521746 !important ;
+	background: #fff !important;
+}
+.btn-link {
+	color: #521746 !important ;
+}
+.btn-link:hover {
+	color: #6b3460 !important ;
+}
+.btnStella1 {
+	background: #521746 !important ;
+	color: #fff !important;
+}
+.btnStella1:hover {
+	background: #6b3460 !important ;
+	color: #fff !important;
+}
+/* Box Shadow */
+.stellaShadow {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* color */
+.colorStella1 {
+	color: #521746 !important;
+}
+
+/* Input style */
+input[readonly] {
+	background-color: #f1f3f5;
+}
+
+/* a Link */
+.border-bottom-stella {
+	border-bottom: 1px solid #521746 !important;
+}
+.border-bottom-stella {
+	color: #521746 !important ;
+}
+
+/* Section CSS */
+
+/* Caraousel Section */
+/* @media (max-width: 600px) { */
+.alert li {
+	list-style-type: initial !important;
+}
+.border-left-primary {
+	border-left: 0.25rem solid #521746 !important;
+}
+#changePasSection,
+#testimonySection,
+#profileSection,
+#loginSection,
+#registrationSection,
+#productSection,
+#paymentSection,
+#trackSection,
+#faqSection,
+#reservationSection,
+#tipsSection,
+#transactionSection {
+	margin-top: 95px;
+}
+#carouselSection {
+	margin-top: 95px !important;
+}
+@media (max-width: 600px) {
+	#changePasSection,
+	#testimonySection,
+	#profileSection,
+	#productSection,
+	#faqSection,
+	#tipsSection,
+	#paymentSection,
+	#reservationSection,
+	#trackSection,
+	#transactionSection {
+		margin-top: 100px !important;
+	}
+	#tipsSection {
+		margin-bottom: 100px !important;
+	}
+}
+#carouselSection p {
+	color: #fff !important;
+}
+/* } */
+
+/* End Carousel Section */
+/* Profile Section */
+#profilePicture {
+	width: 150px;
+	height: 150px;
+	object-fit: center;
+}
+#profileEditPicture {
+	top: 35%;
+	left: 5;
+	right: 30%;
+	padding: 5px;
+	background: #521746;
+	color: #fff;
+	position: absolute;
+	cursor: pointer;
+}
+@media (max-width: 600px) {
+	#profileEditPicture {
+		right: 15%;
+	}
+}
+/* End Profile Section */
+
+/* Quil Editor */
+:host /deep/ .ql-editor {
+	min-height: 200px !important;
+}
+/* End Quil Editor */
+
+/* Sweetalert2 Bug */
+body {
+	padding-right: 0px !important;
+}
+/* End Sweetalert2 bug */
+/* Layanan Kami Section */
+#layananKami .card-img-top {
+	height: 200px !important;
+	object-fit: cover !important;
+}
+/* End Layanan Kami Section */
+/*Product List Section */
+#productSection .card-img-top {
+	height: 200px !important;
+	object-fit: cover !important;
+}
+#faqSection #accordion ul,
+#tipsSection #accordion ul {
+	padding-left: 15px !important;
+}
+#productSection .description li,
+#faqSection ul li,
+#tipsSection ul li,
+#layananKami .description li {
+	list-style-type: initial !important;
+}
+/* End Product Section */
+
+/* Set Display Mobile and dekstop */
+.mobileOnly {
+	display: none !important;
+}
+.dekstopOnly {
+	display: block !important;
+}
+@media (max-width: 600px) {
+	.mobileOnly {
+		display: block !important;
+	}
+	.dekstopOnly {
+		display: none !important;
+	}
+}
+
+.textStella {
+	color: #521746 !important;
+	font-weight: 600;
+}
+.bgStella {
+	background: #521746 !important;
+}
+/* Loading CSS */
+/* Loading */
+/* Absolute Center Spinner */
+.loading {
+	position: fixed;
+	z-index: 99999999999999999999999999999999999999999999999;
+	height: 2em;
+	width: 2em;
+	overflow: show;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	color: white;
+}
+
+/* Transparent Overlay */
+.loading:before {
+	content: "";
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(rgba(20, 20, 20, 0.8), rgba(0, 0, 0, 0.8));
+	background: -webkit-radial-gradient(
+		rgba(20, 20, 20, 0.8),
+		rgba(0, 0, 0, 0.8)
+	);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+	/* hide "loading..." text */
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+
+.loading:not(:required):after {
+	content: "";
+	display: block;
+	font-size: 10px;
+	width: 1em;
+	height: 1em;
+	margin-top: -0.5em;
+	-webkit-animation: spinner 1500ms infinite linear;
+	-moz-animation: spinner 1500ms infinite linear;
+	-ms-animation: spinner 1500ms infinite linear;
+	-o-animation: spinner 1500ms infinite linear;
+	animation: spinner 1500ms infinite linear;
+	border-radius: 0.5em;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0,
+		rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0,
+		rgba(255, 255, 255, 0.75) 0 1.5em 0 0,
+		rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0,
+		rgba(255, 255, 255, 0.75) -1.5em 0 0 0,
+		rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0,
+		rgba(255, 255, 255, 0.75) 0 -1.5em 0 0,
+		rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+	box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0,
+		rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0,
+		rgba(255, 255, 255, 0.75) 0 1.5em 0 0,
+		rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0,
+		rgba(255, 255, 255, 0.75) -1.5em 0 0 0,
+		rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0,
+		rgba(255, 255, 255, 0.75) 0 -1.5em 0 0,
+		rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@-moz-keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@-o-keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+/* Testimony */
+/* Styling h1 and links
+––––––––––––––––––––––––––––––––– */
+#testimonySection h1[alt="Simple"] {
+	color: white;
+}
+#testimonySection a[href],
+#testimonySection a[href]:hover {
+	color: grey;
+	font-size: 0.5em;
+	text-decoration: none;
+}
+
+#testimonySection .starrating > input {
+	display: none;
+} /* Remove radio buttons */
+
+#testimonySection .starrating > label:before {
+	content: "\f005"; /* Star */
+	margin: 2px;
+	font-size: 3em;
+	font-family: FontAwesome;
+	display: inline-block;
+}
+
+#testimonySection .starrating > label {
+	color: #222222; /* Start color when not clicked */
+}
+
+#testimonySection .starrating > input:checked ~ label {
+	color: #ffca08;
+} /* Set yellow color when star checked */
+
+#testimonySection .starrating > input:hover ~ label {
+	color: #ffca08;
+} /* Set yellow color when star hover */
+
+.ql-align-justify {
+	text-align: justify !important;
+}
+.ql-align-center {
+	text-align: center !important;
+}
+.ql-align-left {
+	text-align: left !important;
+}
+.ql-align-right {
+	text-align: right !important;
+}
+@media (min-width: 700px) {
+	.card-img-top {
+		width: 100%;
+		height: 15vw;
+		object-fit: cover;
+	}
+}
+@media (max-width: 700px) {
+	.card-img-top {
+		width: 100%;
+		height: 60vw;
+		object-fit: cover;
+	}
+}
